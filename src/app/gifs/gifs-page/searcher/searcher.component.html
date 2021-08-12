@@ -1,0 +1,22 @@
+<h5>Buscar:</h5>
+
+<div class="input-group">
+    <input type="search" class="form-control rounded" placeholder="Ingrese una palabra..." (keyup.enter)="buscar()"
+        #txtBuscar>
+    <button class="btn btn-outline-dark" (click)="buscar()">
+        <i class="fas fa-search"></i>
+        Buscar
+    </button>
+
+</div>
+
+<!-- <form [formGroup]="searcherForm">
+    <div class="input-group">
+        <input type="search" class="form-control rounded" placeholder="Número de tarjeta" aria-label="search"
+            aria-describedby="search-addon" formControlName="numero" />
+        <button type="submit" class="btn btn-outline-primary">
+            <i class="fas fa-search"></i>
+            Buscar
+        </button>
+    </div>
+</form> -->
