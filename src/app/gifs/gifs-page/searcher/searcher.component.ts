@@ -23,8 +23,7 @@ export class SearcherComponent {
       return;
     }
     else {
-      this.gifsService.registrarBusqueda(this.txtBuscar.nativeElement.value);
-      this.txtBuscar.nativeElement.value = '';
+      this.gifsService.buscarGifs(this.txtBuscar.nativeElement.value);
     }
 
   }
