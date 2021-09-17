@@ -24,6 +24,7 @@ export class SearcherComponent {
     }
     else {
       this.gifsService.buscarGifs(this.txtBuscar.nativeElement.value);
+      this.txtBuscar.nativeElement.value = '';
     }
 
   }

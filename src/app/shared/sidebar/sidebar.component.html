@@ -4,7 +4,8 @@
     <hr class="text-white" />
 
     <div class="list-group list-reset">
-        <a *ngFor="let search of historial" href="#" class="list-group-item list-group-item-action">
+        <a *ngFor="let search of historial" href="#" (click)="searchFromHistory(search)"
+            class="list-group-item list-group-item-action">
             {{ search }}
         </a>
     </div>
